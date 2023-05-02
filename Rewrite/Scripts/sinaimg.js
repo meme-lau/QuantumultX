@@ -1,4 +1,4 @@
 var modifiedHeaders = $request.headers;
-modifiedHeaders['Referer'] = ' https://m.weibo.cn/';
+modifiedHeaders['Referer'] = 'https://weibo.com/';
 
 $done({headers : modifiedHeaders});
